@@ -2,8 +2,8 @@
 const rut =24545568; //constante
 
 let numero = 0; //numerica INT
-let decima = 2.5 // num float
-let texto = hola; //string
+let Decimal = 2.5 // num float
+let texto = "hola"; //string
 let booleano = true; // bool
 let indefinida = undefined; // indefinida esta esperando a que le asignen algo
 

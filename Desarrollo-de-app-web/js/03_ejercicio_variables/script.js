@@ -1,53 +1,61 @@
-console.log("hijos_de_puta")
 
 
+//creacion de funcion para mostrar lo que va a hacer 
 function Numeroentero(){
-    alert("30")
-}
+    alert(num)
+};
 
 
-
+//creacion de funcion para mostrar lo que va a hacer 
 function Decimal(){
-    alert("6,66")
+    alert(decimal);
 }
 
-function Stringt(){
-    alert("hello mather fucker")
+
+//creacion de funcion para mostrar lo que va a hacer 
+function cadenatexto(){
+    alert(texto);
 }
 
+
+//creacion de funcion para mostrar lo que va a hacer 
 function booleano(){
-    alert("22.669.536-8")
+    alert(mostarboolean)
 }
 
 
-
-function array(){
-    alert("tomates,14,manzanas,10")
-}
-
-function Stringt(){
-    alert("hola mundo")
-}
-
-
-function matriz(){
-    alert([1,2], [3,4])
-}
-
-
+//creacion de funcion para mostrar lo que va a hacer 
 function indefinida(){
-    alert(undefined)
-}
+    alert(undifine)
+};
 
 
-alert("Número entero: " + numeroEntero);
-alert("Número decimal: " + numeroDecimal);
-alert("Cadena de texto: " + cadenaTexto);
-alert("Booleano: " + booleano);
-alert("Arreglo: " + arreglo);
-alert("Objeto: " + JSON.stringify(objeto));
-alert("Indefinida: " + indefinida);
-alert("Nulo: " + nulo);
-alert("Resultado de la operación (5 + 3): " + operacion(5, 3));
+//creacion de funcion para mostrar lo que va a hacer 
+function mostrArarray(){
+    alert("Array is: \n" + array)
+};
+
+
+//creacion de funcion para mostrar lo que va a hacer 
+function matriz(){
+    alert(matri)
+};
+
+
+
+//creacicon de variable 
+    let num = 20; // creacion de  numero entero 
+    let decimal =6.66; // creacion de  numero decimal
+    let texto="hola como estas mundo"; // creacion de cadena de exto
+    let mostarboolean=false; // creacion booleano
+    let undifine=undefined; // creacion de  variable indefinida
+    let array=["tomates", 24, "paltas" , 77]; // creacion de lista 
+    let matri=[[1,2], [3,4]]; // creacion de lista dentro de otra
+
+
+
+
+
+
 
 
