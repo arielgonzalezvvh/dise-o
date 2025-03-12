@@ -4,22 +4,26 @@ console.log("Vinculado correctamente...")
 // Luego, calcula y muestra en un mensaje la edad actual basada en el año de nacimiento.
 
 function declararVariables() {
-    alert(ahora-fecha_nac);
     // Tu código aquí
+    let ahora = parseInt(prompt ("Ingrese Año Actual"));
+    let fecha_nac =  parseInt(prompt ("ingresa tu fecha_nac"));
+    let edad = ahora - fecha_nac;
+    alert("Edad es:" + edad +".");
     }
+    
 
-    let ahora = 2025
-    let fecha_nac = 2000
+
     
     // Ejercicio 2: Asignación de valores
     // Instrucciones: Completa la función para asignar el valor de 'var1' a 'var2' y luego muestra el valor de 'var2'.
     function asignarValores() {
-    alert(var2);
-
+    let var1 =  parseInt(prompt ("Ingreseun valor"))
+    let var2 = var1;
+    alert("El valor de var2 es:"+var2);
     };
+    
 
-    let var1 = 20
-    let var2 = 63
+
     
     // Ejercicio 3: Operaciones matemáticas
     // Instrucciones: Completa la función para realizar las siguientes operaciones:
@@ -27,15 +31,27 @@ function declararVariables() {
     // Muestra los resultados en un mensaje.
     function realizarOperaciones() {
     
-    alert( );
-    
+
+
+    let num1= parseInt(prompt("Ingresa Un Num1"));
+    let num2= parseInt(prompt("Ingresa Un Num2"));
+    let num3= parseInt(prompt("Ingresa Un Num3"));
+    let suma = num1+num2;
+    let resta = num1+num3;
+    let multiplica = num2*num3;
+    let divide = num1/120;
+    alert("Resultados: \n suma:" + suma + "\n resta:" + resta + "\n multiplicacion:" + multiplica + "\n division:" + divide);
     // Tu código aquí
     }
+
     
     // Ejercicio 4: Manipulación de cadenas
     // Instrucciones: Completa la función para construir un mensaje utilizando las variables 'direccion' y 'n_casa'.
     // Luego, muestra la longitud del mensaje y el antepenultimo en el mensaje. (.length)
     function manipularCadenas() {
- 
+        alert()
     // Tu código aquí
     }
+
+
+
