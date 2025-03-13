@@ -19,7 +19,7 @@ function declararVariables() {
     function asignarValores() {
     let var1 =  parseInt(prompt ("Ingreseun valor"))
     let var2 = var1;
-    alert("El valor de var2 es:"+var2);
+    alert("El valor de var2 es:"+ var2);
     };
     
 
@@ -49,7 +49,21 @@ function declararVariables() {
     // Instrucciones: Completa la función para construir un mensaje utilizando las variables 'direccion' y 'n_casa'.
     // Luego, muestra la longitud del mensaje y el antepenultimo en el mensaje. (.length)
     function manipularCadenas() {
-        alert()
+        let direccion = prompt("Ingrese su dirección");
+        let casa = parseInt(prompt ("n_casa"))
+        let cadena = direccion +" " + casa
+        let longitud = cadena.length;
+        let antepenultimo = cadena[cadena.length-3]
+        alert("tu direccione es : " + cadena );
+
+        alert (`Tu direccion es: ${cadena}
+            \n Tu numero de casa es : ${casa}
+            \n largo de cadena : ${longitud}
+            \n caracter antepenultimo: ${antepenultimo}`);
+
+        
+
+
     // Tu código aquí
     }
 

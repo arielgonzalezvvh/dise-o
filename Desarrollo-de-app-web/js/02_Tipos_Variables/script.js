@@ -1,5 +1,7 @@
 //Creación de variables
+//una cadena es 
 const rut =24545568; //constante
+
 
 let numero = 0; //numerica INT
 let Decimal = 2.5 // num float
